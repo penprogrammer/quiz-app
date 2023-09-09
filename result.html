@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .container {
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center align-items-center">
+        <div class="card" style="width: 25rem;">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h3 class="h4 mb-0">Pen Programmer</h3>
+                    <button class="btn btn-primary">
+                        Result
+                    </button>
+                </div>
+                <hr>
+                <div class="alert alert-success text-center" id="option_a" role="alert">
+                    Total Points: <span id="totalPoints">0</span>
+                </div>
+                <hr>
+                <div class="alert alert-primary" id="option_a" role="alert">
+                    Total Question: <span id="totalQuestion">0</span>
+                </div>
+                <div class="alert alert-info" id="option_b" role="alert">
+                    Attempted Question: <span id="attemptedQuestion">0</span>
+                </div>
+                <div class="alert alert-warning" id="option_b" role="alert">
+                    Skipped Question: <span id="skippedQuestions">0</span>
+                </div>
+                <div class="alert alert-success" id="option_c" role="alert">
+                    Correct Answers: <span id="correctAnswers">0</span>
+                </div>
+                <div class="alert alert-danger" id="option_d" role="alert">
+                    Wrong Answers: <span id="wrongAnswers">0</span>
+                </div>
+
+                <hr>
+                <a href="index.html" class="btn btn-primary w-100">Retake the test</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="result.js"></script>
+
+</body>
+
+</html>
